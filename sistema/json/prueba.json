@@ -1,0 +1,8 @@
+SELECT 
+     CONCAT("[",
+          GROUP_CONCAT(
+               CONCAT("{username:'",username,"'"),
+               CONCAT(",email:'",email),"'}")
+          )
+     ,"]") 
+AS json FROM users;

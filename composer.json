@@ -1,0 +1,5 @@
+{
+    "require": {
+        "get-stream/stream": "~2.1"
+    }
+}

@@ -1,0 +1,25 @@
+From f831acd6d04e8e5dd80b40be7bf3d75ce7356e32 Mon Sep 17 00:00:00 2001
+From: gcachuo <gcachu.o@gmail.com>
+Date: Thu, 30 Jul 2015 12:31:13 -0500
+Subject: [PATCH] p
+
+---
+ sistema/modulos/dashboard/inicio_funciones.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/sistema/modulos/dashboard/inicio_funciones.php b/sistema/modulos/dashboard/inicio_funciones.php
+index d61b963..7ae5a42 100644
+--- a/sistema/modulos/dashboard/inicio_funciones.php
++++ b/sistema/modulos/dashboard/inicio_funciones.php
+@@ -205,7 +205,7 @@ select id_poliza id from recordatorio where id_recordatorio=' . $record["id"] .
+     }
+ 
+ 
+-    $pagina.=
++    $pagina .=
+              '<div class="modal fade" id="modalPagar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+         <div class="modal-content">
+-- 
+1.9.5.msysgit.0
+
